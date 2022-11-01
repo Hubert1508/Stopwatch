@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(41, 38, 38);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.stopwatch{
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    width: 35em;
+    height: 30em;
+    text-shadow: 5px 5px 15px white;
+}
+
+#timer{
+    font-size: 65px;
+    margin-top: 15%;
+}
+
+.button{
+    border-radius: 25px;
+    font-size: 40px;
+    margin-top: 20%;
+    background-color: red;
+    width: 4em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buttonDisabled{
+    border-radius: 25px;
+    font-size: 40px;
+    margin-top: 20%;
+    background-color: red;
+    width: 4em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button:hover{
+    color: white;
+    border: 2px solid white;
+}
+
+button:focus{
+    outline: none;
+}
+
+.lap{
+    font-size: 75px;
+    background-color: black;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.lap:hover{
+    text-shadow: 15px -5px 15px red;
+}
+
+.bottom{
+    margin-top: 2%;
+}
+
+.result{
+    width: 10em;
+    height: 20em;
+    font-size: 2em;
+    color: white;
+}
