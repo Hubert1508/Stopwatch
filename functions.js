@@ -35,6 +35,14 @@ startButton.onclick = function(){
 
         let result = document.getElementById("result");
         
+       
+
+        if(num>=16){
+
+            alert("Limit zapisu został osiągnięty");
+            result = "";
+        }
+
         result.innerHTML +=(num++) + " - "+memory+"</br>";
 
     }
